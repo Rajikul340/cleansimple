@@ -1,14 +1,12 @@
 
 import DashboardLayout from "@/components/Layout/DashboardSidbar/DashboardLayout";
-import DashboardNavBar from "@/components/Layout/DashboardSidbar/DashboardNavBar";
-import DashboardSideBar from "@/components/Layout/DashboardSidbar/DashboardSideBar";
-import Layout from "@/components/Layout/Layout";
+
 
 const Dashboard = () => {
   return (
-    <div className="bg-base-200 p-8 ">
+    <div className="">
       <DashboardLayout>
-
+         <h1> welcome to your dashboard</h1>
       </DashboardLayout>
     </div>
   );

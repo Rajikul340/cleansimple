@@ -3,14 +3,14 @@ import { GrNotification } from "react-icons/gr";
 
 const DashboardNavBar = () => {
   return (
-    <div className="navbar ">
+    <div className="navbar mt-5">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">Simple Shop </a>
+      
         <div className="form-control">
           <input
             type="text"
             placeholder="Search"
-            className="input input-bordered rounded-3xl"
+            className="input input-bordered rounded-3xl w-80 h-10 bg-base-200"
           />
         </div>
       </div>
